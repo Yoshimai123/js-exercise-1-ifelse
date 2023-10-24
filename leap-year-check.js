@@ -1,4 +1,4 @@
-let year = prompt("Input a year");
+let year = Number(prompt("Input a year"));
 
 if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
     alert(year + " is a leap year.");

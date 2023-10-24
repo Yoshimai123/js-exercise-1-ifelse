@@ -1,6 +1,6 @@
 let weight = prompt("How many KG do you weigh?");
 let height = prompt("How tall are you?");
-let bmi = (weight) / (height * 2)
+let bmi = (weight) / (height * height)
 
 alert("Your BMI is: " + bmi)
 
